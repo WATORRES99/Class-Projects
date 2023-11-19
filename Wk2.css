@@ -1,0 +1,85 @@
+
+
+/*I started by adding and formatting html a bit so text would all be the same.  I also changed the background color 
+of the screen to a light blue using rgb.  In addition, I modified the header by aligning the text, changed background color, text color, 
+and added a drop shadow as well   */
+html{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+body{
+    background-color: rgb(176, 192, 193);
+}
+header{
+    text-align: center;
+    background-color: rgb(12, 12, 118);
+    color: bisque;
+    filter: drop-shadow(2px 2px 1px #606f78);
+}
+/*I modified the table by collapsing border and increasing width to fit whole screen.  I edicted the th and td so text was better aligned.  
+I added border as well.  In addition, added hover function to highlight in grey the particular row   */
+table{
+border-collapse: collapse;
+width: 100%;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+tr:hover{
+    background-color: #606f78;
+}
+
+/* I modified each picture to smooth the edges and corners, change margin, and added a break so each foto was below each other.   */
+#beagle-id{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+#yorkie-id{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+#frenchie-id{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/*I modified the link sections to add a box, change background color, align text, and decrase the box size to fit the text.   */
+
+
+.contact-div{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(12, 12, 118);
+}
+.detail-div{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(12, 12, 118);
+}
+.pictures-div{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(12, 12, 118);
+}
